@@ -1,0 +1,37 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+   <body><div class="container-fluid">
+     <h2>
+     Try it out
+     </h2>
+     <h3>Step 1</h3>
+     <p>
+       Enter a URL to generate a short address using the format:
+     </p>
+     <code>https://short-url-service.glitch.me/api/ + "https://www.google.com" or "http:// www.facebook.com"</code><br>
+     <h3>A shurt URL will be generated and saved to the database, as seen below.</h3><code>{<strong>"_id":</strong>"5acf4b50a237fb1b52f6b886", <strong>"originalUrl":</strong>"http://www.google.com",<strong>"shortUrl"</strong>:"https://short-url-service.glitch.me/57"}</code>
+     <h3>Step 2</h3>
+     <p>
+       Type the shortened URL into your browser and you will be redirected to the corresponding website.
+     </p>
+     <code><a href = "https://short-url-service.glitch.me/42">https://short-url-service.glitch.me/42</a></code>    
+     </div>
+    </body>
+  </body>
+</html>
